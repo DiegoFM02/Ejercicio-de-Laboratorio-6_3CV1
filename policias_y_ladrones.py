@@ -64,6 +64,6 @@ print("Número de asignaciones:", resultado)"""
 
 # Ejemplo de uso
 arr = ['l', 'l', 'p', 'l', 'p', 'l', 'l', 'p', 'l', 'p','l', 'p','l','l','p','p','p']
-K = 3
+K = 2
 resultado = atrapar_ladrones3([i for i, x in enumerate(arr) if x == 'p'], [i for i, x in enumerate(arr) if x == 'l'], K)
 print("Número de asignaciones:", resultado)"""
